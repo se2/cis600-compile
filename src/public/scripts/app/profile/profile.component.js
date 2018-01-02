@@ -184,7 +184,12 @@ var profileCtrl = function (AppServices, $rootScope, $scope, $http, Upload, $mdD
 
   $scope.backToList = function () {
     $scope.msg = {};
-    $scope.formdata = $scope.defaultForm;
+    $scope.formdata = {
+      avatar: $scope.defaultAvatar,
+      type: 'graduate-ms',
+      year: "2016",
+      school: 'UMass Dartmouth'
+    };
     $scope.isEdit = false;
     // scroll page to top
     $('html').animate({
