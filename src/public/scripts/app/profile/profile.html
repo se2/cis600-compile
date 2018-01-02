@@ -179,7 +179,7 @@
                     <md-input-container flex="25" flex-xs="100">
                       <md-select name="type" ng-model="formdata.startYear">
                         <md-option value=""></md-option>
-                        <md-option ng-repeat="year in range(2000, 2040) | orderBy:'-toString()'" value="{{year}}">{{year}}</md-option>
+                        <md-option ng-repeat="year in range(2000, 2040)" value="{{year}}">{{year}}</md-option>
                       </md-select>
                     </md-input-container>
                   </div>
@@ -196,7 +196,7 @@
                     <md-input-container flex="25" flex-xs="100">
                       <md-select name="type" ng-model="formdata.endYear">
                         <md-option value=""></md-option>
-                        <md-option ng-repeat="year in range(2000, 2040) | orderBy:'-toString()'" value="{{year}}">{{year}}</md-option>
+                        <md-option ng-repeat="year in range(2000, 2040)" value="{{year}}">{{year}}</md-option>
                       </md-select>
                     </md-input-container>
                   </div>
@@ -510,7 +510,7 @@
                     <md-input-container flex="50" flex-xs="100">
                       <md-select name="type" ng-model="formdata.startYear">
                         <md-option value=""></md-option>
-                        <md-option ng-repeat="year in range(2000, 2040) | orderBy:'-toString()'" value="{{year}}">{{year}}</md-option>
+                        <md-option ng-repeat="year in range(2000, 2040)" value="{{year}}">{{year}}</md-option>
                       </md-select>
                     </md-input-container>
                   </div>
@@ -527,7 +527,7 @@
                     <md-input-container flex="50" flex-xs="100">
                       <md-select name="type" ng-model="formdata.endYear">
                         <md-option value=""></md-option>
-                        <md-option ng-repeat="year in range(2000, 2040) | orderBy:'-toString()'" value="{{year}}">{{year}}</md-option>
+                        <md-option ng-repeat="year in range(2000, 2040)" value="{{year}}">{{year}}</md-option>
                       </md-select>
                     </md-input-container>
                   </div>
